@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Data;
 using System.ServiceProcess;
-using System.Threading;
 using WeatherEngine.Service.Contract;
 using WeatherEngine.Service.Service;
 using WeatherEngine.Service.Utilities;
@@ -11,16 +10,12 @@ namespace WeatherEngine.Service
 {
     partial class WeatherEngineService : ServiceBase
     {
-        private Timer _tmrServiceTimer = null;
-        private double _timerInterval;
-
         IWeatherEngineRepository _iWeatherEngineRepository;
 
         public WeatherEngineService()
         {
             InitializeComponent();
             _iWeatherEngineRepository = new WeatherEngineRepository();
-            _timerInterval = Constants.TimerInterval;
         }
 
         public void OnDebug()
@@ -30,8 +25,6 @@ namespace WeatherEngine.Service
 
         protected override void OnStart(string[] args)
         {
-            //_tmrServiceTimer = new Timer();
-
             ProcessWeatherEngine();
         }
 
@@ -76,6 +69,10 @@ namespace WeatherEngine.Service
                             {
                                 Util.LogIn("Weather Infomation could not be stored stored for city : " + cityId);
                             }
+                        }
+                        else
+                        {
+                            Util.LogIn("No Weather Infomation found for city : " + cityId);
                         }
                     }
                 }

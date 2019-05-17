@@ -9,4 +9,6 @@
  Note:
 1. Unit test cases are not added
 2. It's windows service, so for directly testing and running purpose OnDebug is called in Program.cs and have commented rest lines.
+3. App id aa69195559bd4f88d79f9aadeb77a8f6 is restricted hence tried with sample App id b6907d289e10d714a6e88b30761fae22 (Can be changed from App.config)
+
 

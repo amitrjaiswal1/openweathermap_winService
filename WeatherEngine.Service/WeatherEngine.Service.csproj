@@ -79,6 +79,9 @@
     <Content Include="Data\Configuration\1652019.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Data\Configuration\1752019.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Data\Configuration\CityConfig.xml" />
     <Content Include="Data\ErrorLogs\Log.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
