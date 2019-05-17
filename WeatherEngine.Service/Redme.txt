@@ -4,4 +4,9 @@
  4. Information and error are logged in Data->ErrorLogs folder. Date wise file is created
  5. App.config file contains all configuration information and other global constants like folder/file path 
 
- Note: Test1
+
+ **************
+ Note:
+1. Unit test cases are not added
+2. It's windows service, so for directly testing and running purpose OnDebug is called in Program.cs and have commented rest lines.
+
