@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WeatherConfig>
+  <City>
+    <Id>2988507</Id>
+    <Name>City of London</Name>
+    <IsImport>True</IsImport>
+  </City>
+  <City>
+    <Id>2988507</Id>
+    <Name>Paris</Name>
+    <IsImport>True</IsImport>
+  </City>
+  <City>
+    <Id>2964574</Id>
+    <Name>Dublin</Name>
+    <IsImport>True</IsImport>
+  </City>
+  <City>
+    <Id>4229546</Id>
+    <Name>Washington</Name>
+    <IsImport>True</IsImport>
+  </City>
+  <City>
+    <Id>5128581</Id>
+    <Name>New York</Name>
+    <IsImport>True</IsImport>
+  </City>
+</WeatherConfig>

@@ -1,0 +1,5 @@
+﻿ 1. This is windows service to capture city wise weather infomration on daily basis depending on the input file provided
+ 2. Configuration text file name should be in DDMYYYY format and to be contain in Data->COnfigutaion folder inside bin folder
+ 3. Weather result is stored in Data->WeatherResult folder. Date wise folder gets created daily and inside folder city (city id) wise weather information text file gets created.
+ 4. Information and error are logged in Data->ErrorLogs folder. Date wise file is created
+ 5. App.config file contains all configuration information and other global constants like folder/file path 
